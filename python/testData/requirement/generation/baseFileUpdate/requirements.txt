@@ -1,3 +1,4 @@
 -r base_requirements.txt
 pandas
 cookiecutter
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
