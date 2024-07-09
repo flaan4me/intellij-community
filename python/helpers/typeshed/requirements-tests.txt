@@ -14,3 +14,4 @@ termcolor>=2
 tomli==1.2.2
 tomlkit==0.11.4
 types-pyyaml
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
