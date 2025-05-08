@@ -1,5 +1,7 @@
-Django==3.0.0
+Django==3.2.25
 requests==2.22.0
 Jinja2==2.11.1
 pandas==1.0.1
 cookiecutter==1.7.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
