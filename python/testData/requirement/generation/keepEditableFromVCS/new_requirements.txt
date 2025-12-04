@@ -1,3 +1,4 @@
-Django==3.0.0
+Django==4.2.27
 -e git+https://github.com/tox-dev/tox.git@fcba59158f853c4da38f164dbf8523b1aeb0fedf#egg=tox
 numpy==1.18.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
