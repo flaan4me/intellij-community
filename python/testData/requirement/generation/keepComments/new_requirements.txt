@@ -3,3 +3,4 @@
 Django==3.0.0
 # And another
 numpy==1.18.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
